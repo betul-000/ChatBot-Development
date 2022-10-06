@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "selam",
+        "Hi",
+        "Birisi var mı?",
+        "Hello",
+        "Merhaba"
+      ],
+      "responses": [
+        "Selam , senin icin ne yapabilirim?",
+        "Hey :-)",
+        "Sana nasil yardimci olabilirim?",
+        "Merhaba!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "sonra gorusuruz", "iyi gunler","hoscakal"],
+      "responses": [
+        "Gorusmek uzere, ziyaretin icin tesekkurler.",
+        "Iyi gunler",
+        "Bye! Yakinda gorusmek uzere."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Tesekkur ederim", "yardimci oldugunuz icin tesekkurler", "cok tesekkur ederim","tesekkürler"],
+      "responses": ["Memnuniyetle yardim ettim!", "Her zaman!", "Benim icin bir zevkti."]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Sizde hangi secenekler var?",
+        "Ne tür secenekler satiyorsunuz?"
+      ],
+      "responses": [
+        "Biz kahve ve cay satiyoruz.",
+        "Bizde cay ve kahve seceneklerimiz mevcut."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Kredi karti kabul ediyor musunuz?",
+        "MasterCard kabul ediyor musunuz?",
+        "Paypal ile ödeyebilir miyim?",
+        "Sadece nakit mi?",
+        "Odeme secenekleriniz neler?",
+        "Nasil ödemeliyiz?"
+      ],
+      "responses": [
+        "VISA, Mastercard ve Paypal kabul ediyoruz",
+        "Cogu kredi kartini ve Paypal'i kabul ediyoruz"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Teslimat ne kadar surer?",
+        "Nakliye ne kadar surer?",
+        "Teslimatimi ne zaman alirim?"
+      ],
+      "responses": [
+        "Teslimat 2-4 gun surer",
+        "Nakliye 2-4 gun surer"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Bana bir saka yap!",
+        "Bana komik birseyler söyle!",
+        "Saka biliyor musun?"
+      ],
+      "responses": [
+        "Gecen gun taksi cevirdim hala donuyor.",
+        "Bebege patik giydirmeye calismislar ama giymemis neden? Bebek antipatikmis."
+      ]
+    }
+  ]
+}
